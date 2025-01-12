@@ -1,0 +1,25 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+#sidebar {
+  background: url(/assets/img/aside-background.jpg) no-repeat center left 72% /
+    cover;
+
+  .site-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@media (min-width: 1650px) {
+  #sidebar .profile-wrapper {
+    margin-top: 7.5rem;
+  }
+}
