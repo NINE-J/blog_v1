@@ -68,8 +68,7 @@ order: 4
       headers: {
         "Content-Type": "application/json",
       },
-      credentials: "omit", // 명시적으로 설정 (기본값이지만 확실히 하기 위함)
-      cache: "no-store", // 캐시 방지
+      cache: "no-store",
     })
       .then(response => {
         if (!response.ok) {
