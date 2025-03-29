@@ -64,11 +64,7 @@ order: 4
     reloadIcon.classList.toggle('active');
 
     fetch('https://korean-quotes-api.vercel.app/api', {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      cache: "no-store",
+      cache: "no-store"
     })
       .then(response => {
         if (!response.ok) {
