@@ -63,7 +63,13 @@ order: 4
     const reloadIcon = document.querySelector('.ico-reload');
     reloadIcon.classList.toggle('active');
 
-    fetch('https://korean-quotes-api.vercel.app/api')
+    fetch('https://korean-quotes-api.vercel.app/api', {
+      headers: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+      }
+    })
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
