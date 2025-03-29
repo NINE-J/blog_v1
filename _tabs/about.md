@@ -63,7 +63,7 @@ order: 4
     const reloadIcon = document.querySelector('.ico-reload');
     reloadIcon.classList.toggle('active');
 
-    fetch(`https://korean-quotes-api.vercel.app/api?timestamp=${timestamp}`, {
+    fetch(`https://korean-quotes-api.vercel.app/api?timestamp=${Date.now()}`, {
       cache: "no-store"
     })
       .then(response => {
