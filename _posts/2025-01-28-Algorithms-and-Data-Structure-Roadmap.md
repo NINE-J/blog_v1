@@ -8,7 +8,7 @@ categories:
   이론]
 tags:
   [알고리즘,
-  Algorithms,
+  algorithms,
   이론,
   theory]
 image:
