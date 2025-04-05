@@ -20,6 +20,7 @@ order: 4
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
     width: 48px;
     height: 48px;
     border-radius: 24px;
@@ -34,8 +35,8 @@ order: 4
   }
 
   #reload-button-wrap .ico-reload {
-    width: 80%;
-    height: 80%;
+    width: 26px;
+    height: 26px;
     fill: #fff;
   }
 
