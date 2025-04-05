@@ -69,6 +69,7 @@ To run the site locally, use the following command:
 
 ```terminal
 $ bundle exec jekyll s
+$ bundle exec jekyll s --host=0.0.0.0 --port=4000 # 외부 접속 테스트
 ```
 
 > If you are using Dev Containers, you must run that command in the **VS Code** Terminal.
