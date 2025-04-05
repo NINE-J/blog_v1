@@ -1,6 +1,8 @@
 {
   "name": "Jekyll",
   "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
+  "forwardPorts": [4000], // 포트 포워딩 추가 (가장 간단한 방법)
+  "appPort": ["4000:4000"], // Legacy 호환성을 위한 설정 (선택 사항)
   "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "postCreateCommand": "bash .devcontainer/post-create.sh",
   "customizations": {
