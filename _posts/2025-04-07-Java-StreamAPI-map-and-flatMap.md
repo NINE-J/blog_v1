@@ -13,7 +13,6 @@ image:
   path: /assets/img/posts/20250407/thumbnail-2025-04-07-Java-StreamAPI-map-and-flatMap.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABSSURBVI3BvQqAIBSA0c/rD0QYFEQtvf97tbYETUlmSa6B56j0ooJQyVCk8yDtKygNMYB2KD+hmp7MUNy2ZbMLVgvhimSj8xg+hkKLMA8df4RKD7S8EZHoGQBcAAAAAElFTkSuQmCC
   alt: Java Stream API - map() vs flatMap()
-Status: InProgress
 ---
 ## 📌개요
 

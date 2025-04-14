@@ -84,6 +84,8 @@ FIFO(First In, First Out) 구조로, 처음에 삽입된 요소가 가장 먼저
 
 ### 빅오 표기법(Big-O Notation)
 
+![Big-O Notation](https://github.com/user-attachments/assets/c3b3ec55-c740-4f5d-bfa3-e182d047ec24)
+
 알고리즘의 시간 복잡도와 공간 복잡도를 나타내는 표기법으로, 입력 크기 n에 대한 연산 횟수나 메모리 사용량을 표현한다.
 
 - O(1): 상수 시간, 입력 크기에 상관없이 일정한 시간 소요

@@ -180,5 +180,3 @@ class ReportGenerator {
 ### 개방/폐쇄 원칙
 
 [이 승(Seung Lee)의 Ocp PPT 중](https://www.slideshare.net/slideshow/ocp-5714964/5714964#8)
-OCP의 변화 Meyer의 OCP 정의 •1988년 Bertrand Meyer의 저서 Object Oriented Software Construction 정의 •한번 구현된 객체는 오류수정을 위해서만 변경 가능 •새 기능/변경된 기능은 별도의 상속된 객체를 이용 •구현의 상속 •부모 객체의 인터페이스(spec)와 자식 객체의 인터페이스는 다를 수 있음 •부모 객체의 코드 재사용 목적 다형성을 가짂 OCP 정의 •1990년대에 재 정의된 OCP •구현이 변경 가능하며 다중의 구현이 생성되어 다형성을 통해 상호 참조 가능 •인터페이스(spec)의 상속 •부모 객체의 인터페이스(spec)와 자식 객체의 인터페이스가 호홖 가능해야 함 •실제 구현은 다를 수 있음
-
