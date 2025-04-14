@@ -70,6 +70,12 @@ Windows Defender의 제외 목록은 Windows 시스템 설정에 저장된다.
 
 IntelliJ는 사용자가 `Exclude folders`를 선택하면 Windows Defender API를 호출하여 해당 프로젝트 폴더를 제외 목록에 추가한다고 한다.
 
+### Trusted Location
+
+작업 폴더를 모아두는 드라이브, 폴더 등이 일정하다면, IntelliJ 설정에서 신뢰할 수 있는 경로를 설정할 수 있다.
+
+`Settings > Build, Execution, Deployment > Trusted Locations` 해당 메뉴에서 본인이 원하는 프로젝트들을 감싸고 있는 상위 경로를 추가 후 저장한다.
+
 ## 🎯결론
 
 간단한 테스트를 위해 만든 프로젝트를 모두 계속 등록하게 되면 어딘가에 기록이 쌓이는지 궁금해서 찾아보게 됐다.
@@ -77,3 +83,5 @@ IntelliJ는 사용자가 `Exclude folders`를 선택하면 Windows Defender API�
 폴더 또는 파일의 수정이 빈번하게 발생하는 프로젝트를 계속 Windows Defender가 스캔하며 성능이 저하될 수 있다는 경고다.
 
 경고를 무시하고 진행해도 되고, 성능을 위해 Defender의 제외 목록에 등록할 수도 있다.
+
+IntelliJ에서 프로젝트를 열 때 신뢰 관련 확인을 요구하는 게 귀찮다면 `Trusted Location` 설정을 하는 방법이 있다.
