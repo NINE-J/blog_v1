@@ -22,7 +22,6 @@ image:
   path: /assets/img/posts/20250222/thumbnail-2025-02-22-Algorithms-and-Data-Structure-Sorting-Advanced.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABVSURBVI3BPQtAQACA4fe+cgxSFotBRv//B8miLiVfkYHUDZLhnkdUdXMRQBJI4+VJiVGW2KTs54IUivlwTIfjofGGreOR2QKjItza8qb5GPeeP5JANz/3ExZafViLAAAAAElFTkSuQmCC
   alt: 알고리즘과 자료구조 고급 정렬
-Status: InProgress
 ---
 ## 📌개요
 

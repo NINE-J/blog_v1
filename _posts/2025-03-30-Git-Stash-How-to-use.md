@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20250330/thumbnail-2025-03-30-Git-Stash-How-to-use.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABQSURBVI3BQQtAMBiA4fdbG0tpKRe5+P//bfWFAw7GinJRex5JNwoYClk+0qycGslM1yNt4GV5HPtGXBRxFkFgVYJzeN+QWR5V7RnGiT+GQhevSRJVFUjlgAAAAABJRU5ErkJggg==
   alt: Git Stash 지금 커밋하고 싶지 않아!
-Status: InProgress
 ---
 ## 📌개요
 

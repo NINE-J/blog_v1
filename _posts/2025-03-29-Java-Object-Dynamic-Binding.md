@@ -17,7 +17,6 @@ image:
   path: /assets/img/posts/20250329/thumbnail-2025-03-29-Java-Object-Dynamic-Binding.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABMSURBVI3BMQ5AQBBA0T+TiUKEyCrQuYD7n0ZPsQ2tDI1kCsW+J/6igFLICDxvuDt+7UjVoNPKxwi8XzjyyV0n5qEjMgIVYUwtf5RCDzDPEp6VBkyEAAAAAElFTkSuQmCC
   alt: Java 객체지향 동적 바인딩
-Status: InProgress
 ---
 ## 📌개요
 

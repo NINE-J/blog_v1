@@ -16,7 +16,6 @@ image:
   path: /assets/img/posts/20250309/thumbnail-2025-03-09-Modular-Arithmetic.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABgSURBVI3Buw6CMBiA0c/ypwbQxaiTA5fR938ddzqYlDTQlFKZTNjoOae2f//IoMgk7FzPdx51g4+O0Rtc+PInojS36kVMAV2UzIvFxwlRmuelY00L1g9ITAHjPhxRZNoA3eMfX6yengwAAAAASUVORK5CYII=
   alt: 다양한 알고리즘에 활용할 수 있는 모듈러 연산
-Status: InProgress
 ---
 ## 📌개요
 

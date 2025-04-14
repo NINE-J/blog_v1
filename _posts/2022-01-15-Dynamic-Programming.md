@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20220115/thumbnail-2022-01-15-Dynamic-Programming.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABfSURBVI3BvQ5AMBSA0U9TRISBeAAxev+nknSgUurn6iIxGHpO0g+jEEERSROUWUOdd6hE4S9HrktEhFsuln3CeoMmWL1h9YYiramylu1csLthOy0vzYc7Ztwx80cR6QHH7iTuR+NzEwAAAABJRU5ErkJggg==
   alt: Dynamic Programming DP를 알아보자
-Status: InProgress
 ---
 ## 📌DP란
 

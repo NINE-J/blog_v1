@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20250105/thumbnail-2025-01-05-Main-class-of-Java.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABRSURBVI3BsQ5AMBRA0dvXLlIdpCL4Cf//P2KTYDHxaHSV9ByjLwoIhRyZHgt6biCWRPcZGSaMb0kc2V33rFcgUVVMHImVx/JxZFaErgn8EQo9stcTt9iRD5AAAAAASUVORK5CYII=
   alt: Java의 main 클래스는 왜 main이지?
-Status: InProgress
 ---
 ## 📌개요
 

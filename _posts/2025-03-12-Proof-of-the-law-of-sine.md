@@ -17,7 +17,6 @@ image:
   path: /assets/img/posts/20250312/thumbnail-2025-03-12-Proof-of-the-law-of-sine.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABdSURBVI3BwQpAQBRA0et5JFE2pGzt/P+vWCtrFKPEhKZs1ZwTpE334EHwpDgacTctBALHDhpDFEOoyNCDPVEce1HMI3VVYpObPBPmZcKYncWeOMpn3QzrZvgjeHoBZdAc1y/OMoQAAAAASUVORK5CYII=
   alt: 삼각함수의 사인 법칙 증명
-Status: InProgress
 ---
 ## 📌개요
 

@@ -17,7 +17,6 @@ image:
   path: /assets/img/posts/20250313/thumbnail-2025-03-13-Proof-of-the-law-of-cosine.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABXSURBVI3BsQ5AMBRA0atKpJOR2Kz+/2+sEmlqsFCRvCeiq6TnFG6YlAyGTJZE+hEaB9cBZQUqoIpZZl6WpLt3WidIo9SV4TgjMV6sfCyJDxs+bPwxZHoAWmgby0K4boIAAAAASUVORK5CYII=
   alt: 삼각함수의 코사인 법칙 증명
-Status: InProgress
 ---
 ## 📌개요
 

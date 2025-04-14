@@ -17,7 +17,6 @@ image:
   path: /assets/img/posts/20250329/thumbnail-2025-03-29-Java-Object-Oriented-Overload-and-Override.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABPSURBVI3BQQpAUBSG0e9eLyNJIske7H81pjIxMr4/ijJR7xzThQxOpsSH9gVJ6NiwssLHmVfiESHWaClTQdQ9EWKQcDNuiYe7MXUNf5xMJ4fBGIZxGrk9AAAAAElFTkSuQmCC
   alt: Java 객체지향 오버로드와 오버라이딩
-Status: InProgress
 ---
 ## 📌개요
 

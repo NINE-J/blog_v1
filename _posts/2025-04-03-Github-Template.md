@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20250403/thumbnail-2025-04-03-Github-Template.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABZSURBVI3BOwqAMBBAwZePTcBCUMQDeP/DiL2FB1BsVhJXEdMKmTF1098UsBTyZC60uNBxawRjMT6Q9gWVjZcnq/RgHHpSdKgqlx6suyB8PJnIyTTN/LEUegDw8h2cZ58XCQAAAABJRU5ErkJggg==
   alt: Github Template을 알아본다.
-Status: InProgress
 ---
 ## 📌개요
 

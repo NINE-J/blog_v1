@@ -16,7 +16,6 @@ image:
   path: /assets/img/posts/20250329/thumbnail-2025-03-29-Java-Object-Oriented-Members-of-Class.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABKSURBVI3BMQqAMBBFwZewxEZQSBFyCe9/GmttrCzVr424jZCZoAcNIo0MR9uMJLSvhNQT68TLcBZlumRoLBznReFjODUP/Ik0ugF+EROI+41dSwAAAABJRU5ErkJggg==
   alt: Java 객체지향 클래스의 구성 멤버
-Status: InProgress
 ---
 ## 📌개요
 

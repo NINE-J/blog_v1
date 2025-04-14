@@ -22,7 +22,6 @@ image:
   path: /assets/img/posts/20250210/thumbnail-2025-02-10-Algorithms-and-Data-Structure-Sorting-Intermediate.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABUSURBVI3BvQ5AMBSA0e+2ldDBwkoiRu//QBjL4i8aA5EYRAw9R6q6OQmgCGR4ZLYg0jFJlLIfC0o0s3dM3nEzPMat55bbEhHBrS1vho9h6/ijCHQBPSkTCnL/5uQAAAAASUVORK5CYII=
   alt: 알고리즘과 자료구조 중급 정렬
-Status: InProgress
 ---
 ## 📌개요
 

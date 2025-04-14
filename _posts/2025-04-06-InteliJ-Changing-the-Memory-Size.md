@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20250406/thumbnail-2025-04-06-InteliJ-Changing-the-Memory-Size.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABZSURBVI3BsQqAIBRA0as4VIJThOD/f1e4WiAE2SK+CprDc5RzTuig6WT4eO8JIVBrxVpLKYWcMzFGXobHPCmGK3GsG00gN2E0CqqwWE06G4bHXoQd4Y+m0w3EjyC9XCQehQAAAABJRU5ErkJggg==
   alt: IntelliJ 전역 또는 애플리케이션 별 메모리 설정
-Status: InProgress
 ---
 ## 📌개요
 

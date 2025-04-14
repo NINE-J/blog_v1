@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20250327/thumbnail-2025-03-27-Git-Rebase-Purpose-and-Alternative-Features.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABMSURBVI3BOwqAMBBAwbebrQURFLHy/vcS9AB+CGa1iGgjZEb8RgGlkPGRlgnfVkgnUtVo0/IwMndnjgdYwF0JcafjZWQiQj+M/FEKXZhwFlQPOcvOAAAAAElFTkSuQmCC
   alt: Git Rebase 사용 목적 및 대체 기능
-Status: InProgress
 ---
 ## 📌개요
 

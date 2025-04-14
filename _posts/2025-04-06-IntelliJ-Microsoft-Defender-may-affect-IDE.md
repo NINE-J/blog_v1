@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20250406/thumbnail-2025-04-06-IntelliJ-Microsoft-Defender-may-affect-IDE.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABUSURBVI3BMQ6AIBAAwRWxoICe8P9PWdqYszESmkuMiHxAZqYQQmWAYZClSSkRY0RVcc6hqnjvyTkjIogIlmYuO8e68ykG9IbT0C2VztJs18Mfw6AX8jIcdWoFOX8AAAAASUVORK5CYII=
   alt: IntelliJ IDEA 프로젝트 경고 Microsoft Defender may affect IDE
-Status: ToDo
 ---
 ## 📌개요
 

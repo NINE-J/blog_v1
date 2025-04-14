@@ -17,7 +17,6 @@ image:
   path: /assets/img/posts/20250315/thumbnail-2025-03-15-Proof-of-the-law-of-tangent.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABfSURBVI3BUQqDMBBAwbeyogiiFlRKj+D9z1QoqPFDxBiytSdoZqR6TUaCjETKzZoe6wYIF2BQVBA8P7LNiPugj67lObb4aydKxKJRKkgO5+nRvuYdD3RZHcvq+Ccj0Rey7CBR7FZzhAAAAABJRU5ErkJggg==
   alt: 삼각함수의 탄젠트 법칙 증명
-Status: InProgress
 ---
 ## 📌개요
 

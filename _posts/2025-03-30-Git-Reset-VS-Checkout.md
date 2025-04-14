@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20250330/thumbnail-2025-03-30-Git-Reset-VS-Checkout.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABbSURBVI3BQQrCMBBA0T8xRZAmEzEgeP/TFQWDiEJDxmwKXbjIe2IdAxyDPJ29Cu2xgIBMR6yuYAat4a435DTj6SQoh6CU553v500ViOlCiGc2nh1NGU2ZfxyDflqaGLur2o5dAAAAAElFTkSuQmCC
   alt: reset과 checkout의 차이를 이해한다.
-Status: InProgress
 ---
 ## 📌개요
 

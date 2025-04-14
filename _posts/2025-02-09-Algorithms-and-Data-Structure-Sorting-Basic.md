@@ -22,7 +22,6 @@ image:
   path: /assets/img/posts/20250209/thumbnail-2025-02-09-Algorithms-and-Data-Structure-Sorting-Basic.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABVSURBVI3BqwqAMABA0eseOA0rgs0gRv//g8TmsMwHE4MiLIgYdk7Wdv1FAkEiRVSVDVoaCm0J54rIJMvh8IfjoYjmfeRhTU0uC9w28Kb48GHijyDRDUDnExo0HyxvAAAAAElFTkSuQmCC
   alt: 알고리즘과 자료구조 기초 정렬
-Status: InProgress
 ---
 ## 📌개요
 

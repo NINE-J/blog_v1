@@ -15,7 +15,6 @@ image:
   path: /assets/img/posts/20250403/thumbnail-2025-04-03-Java-Double-Colon-Operator.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABSSURBVI3BsQmAMBBA0Z/zQMMVGcDGFdx/EHew1Mag5FRMK+S94A8aCI2UqqwLuEPeIAhohHIh48xLqXabOPJJNwjujjtY7DE+SpUskizyR2h0A8g1Foyy5XrOAAAAAElFTkSuQmCC
   alt: Java Double Colon Operator
-Status: ToDo
 ---
 ## 📌개요
 

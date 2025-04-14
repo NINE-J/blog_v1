@@ -14,7 +14,6 @@ image:
   path: /assets/img/posts/20250406/thumbnail-2025-04-06-Java-Memory-Structure-JVM.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAABVSURBVI3BzQpAQBSA0c91kyTFhoXyEN7/SbyCLKymMTN+apSNmnOy80YCIZHyEdYFggOzgygyzryUyDrPJj2eQNVOHM5TG0tVFjyUqNCcoWv4IyS6AGZ+FowLmngYAAAAAElFTkSuQmCC
   alt: Java 실행 환경 JVM 메모리 구조의 이해
-Status: InProgress
 ---
 ## 📌개요
 
