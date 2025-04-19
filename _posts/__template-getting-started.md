@@ -69,7 +69,15 @@ To run the site locally, use the following command:
 
 ```terminal
 $ bundle exec jekyll s
-$ bundle exec jekyll s --host=0.0.0.0 --port=4000 # 외부 접속 테스트
+
+# --host=0.0.0.0 --port=4000 외부 접속 테스트
+# 옵션 적용 오류인 경우 실행 조건에 맞게 컨테이너를 재빌드해야 할 수 있다.
+$ bundle exec jekyll s --host=0.0.0.0 --port=4000 
+
+# --incremental 또는 -I 증분 빌드(변경된 파일만 새롭게 빌드, 속도 향상)
+# 이 옵션을 사용하면 마지막 빌드 이후 수정된 파일만 재처리한다.
+# 만약 새로운 파일이 추가됐다면 이 옵션 없이 새롭게 빌드해야 적용된다.
+$ bundle exec jekyll s -I --host=0.0.0.0 --port=4000 
 ```
 
 > If you are using Dev Containers, you must run that command in the **VS Code** Terminal.

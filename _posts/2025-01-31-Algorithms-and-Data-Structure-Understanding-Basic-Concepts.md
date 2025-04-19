@@ -86,7 +86,7 @@ FIFO(First In, First Out) 구조로, 처음에 삽입된 요소가 가장 먼저
 
 ![Big-O Notation](/assets/img/posts/20250131/Pasted image 20250209174524.png)
 
-https://www.bigocheatsheet.com/
+[bigocheatsheet](https://www.bigocheatsheet.com/)
 
 알고리즘의 시간 복잡도와 공간 복잡도를 나타내는 표기법으로, 입력 크기 n에 대한 연산 횟수나 메모리 사용량을 표현한다.
 
@@ -94,6 +94,384 @@ https://www.bigocheatsheet.com/
 - O(n): 선형 시간, 입력 크기에 비례하여 시간 소요
 - O(log n): 로그 시간, 입력 크기의 로그에 비례하여 시간 소요
 - O(n^2): 이차 시간, 입력 크기의 제곱에 비례하여 시간 소요
+
+#### Common Data Structure Operations
+
+<style>
+  #big-o-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table#big-o-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    position: relative;
+    z-index: 0;
+  }
+
+  #big-o-table > thead > tr:first-child th {
+    border-top: 1px solid #ddd;
+  }
+
+  #big-o-table th,
+  #big-o-table td {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    min-width: 100px;
+    white-space: nowrap;
+    color: #333;
+  }
+
+  #big-o-table th:last-child,
+  #big-o-table td:last-child {
+    border-right: 1px solid #ddd;
+  }
+
+  #big-o-table th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  #big-o-table .sticky-left {
+    position: sticky;
+    left: 0;
+    background-color: #1B1B1E;
+    color: #fff;
+    z-index: 3;
+  }
+
+  /* 강조 색상 - 배경색으로 표현 */
+  #big-o-table .excellent {
+    background-color: #53D000;
+  }
+
+  #big-o-table .fair {
+    background-color: #FFFF00;
+  }
+
+  #big-o-table .good {
+    background-color: #C8EA00;
+  }
+
+  #big-o-table .bad {
+    background-color: #FFC543;
+  }
+
+  #big-o-table .horrible {
+    background-color: #FF8989;
+  }
+
+  #big-o-table .gray {
+    background-color: #E3E3E3;
+  }
+</style>
+
+<table id="big-o-table">
+  <thead>
+    <tr>
+      <th rowspan="2" class="sticky-left">Data Structure</th>
+      <th colspan="4">Average Time Complexity</th>
+      <th colspan="4">Worst Time Complexity</th>
+      <th rowspan="2">Worst Space Complexity</th>
+    </tr>
+    <tr>
+      <th>Access</th>
+      <th>Search</th>
+      <th>Insertion</th>
+      <th>Deletion</th>
+      <th>Access</th>
+      <th>Search</th>
+      <th>Insertion</th>
+      <th>Deletion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="sticky-left">Array</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="fair">Θ(n)</td>
+      <td class="fair">Θ(n)</td>
+      <td class="fair">Θ(n)</td>
+      <td class="excellent">O(1)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Stack</td>
+      <td class="fair">Θ(n)</td>
+      <td class="fair">Θ(n)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="excellent">O(1)</td>
+      <td class="excellent">O(1)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Queue</td>
+      <td class="fair">Θ(n)</td>
+      <td class="fair">Θ(n)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="excellent">O(1)</td>
+      <td class="excellent">O(1)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Singly Linked List</td>
+      <td class="fair">Θ(n)</td>
+      <td class="fair">Θ(n)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="excellent">O(1)</td>
+      <td class="excellent">O(1)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Doubly Linked List</td>
+      <td class="fair">Θ(n)</td>
+      <td class="fair">Θ(n)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="excellent">O(1)</td>
+      <td class="excellent">O(1)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Skip List</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="bad">O(n log(n))</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Hash Table</td>
+      <td class="gray">N/A</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="excellent">Θ(1)</td>
+      <td class="gray">N/A</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Binary Search Tree</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Cartesian Tree</td>
+      <td class="gray">N/A</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="gray">N/A</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">B-Tree</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">horrible-Black Tree</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Splay Tree</td>
+      <td class="gray">N/A</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="gray">N/A</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">AVL Tree</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="good">O(log(n))</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">KD Tree</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="good">Θ(log(n))</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Array Sorting Algorithms
+
+<table id="big-o-table">
+  <thead>
+    <tr>
+      <th rowspan="2" class="sticky-left">Algorithm</th>
+      <th colspan="3">Time Complexity</th>
+      <th rowspan="2">Space Complexity (Worst)</th>
+    </tr>
+    <tr>
+      <th>Best</th>
+      <th>Average</th>
+      <th>Worst</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="sticky-left">Quicksort</td>
+      <td class="bad">Ω(n log n)</td>
+      <td class="bad">Θ(n log n)</td>
+      <td class="horrible">O(n^2)</td>
+      <td class="good">O(log n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Merge Sort</td>
+      <td class="bad">Ω(n log n)</td>
+      <td class="bad">Θ(n log n)</td>
+      <td class="bad">O(n log n)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Timsort</td>
+      <td class="fair">Ω(n)</td>
+      <td class="bad">Θ(n log n)</td>
+      <td class="bad">O(n log n)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Heapsort</td>
+      <td class="bad">Ω(n log n)</td>
+      <td class="bad">Θ(n log n)</td>
+      <td class="bad">O(n log n)</td>
+      <td class="excellent">O(1)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Bubble Sort</td>
+      <td class="fair">Ω(n)</td>
+      <td class="horrible">Θ(n^2)</td>
+      <td class="horrible">O(n^2)</td>
+      <td class="excellent">O(1)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Insertion Sort</td>
+      <td class="fair">Ω(n)</td>
+      <td class="horrible">Θ(n^2)</td>
+      <td class="horrible">O(n^2)</td>
+      <td class="excellent">O(1)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Selection Sort</td>
+      <td class="horrible">Ω(n^2)</td>
+      <td class="horrible">Θ(n^2)</td>
+      <td class="horrible">O(n^2)</td>
+      <td class="excellent">O(1)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Tree Sort</td>
+      <td class="bad">Ω(n log n)</td>
+      <td class="bad">Θ(n log n)</td>
+      <td class="horrible">O(n^2)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Shell Sort</td>
+      <td class="bad">Ω(n log n)</td>
+      <td class="horrible">Θ(n(log n)²)</td>
+      <td class="horrible">O(n(log n)²)</td>
+      <td class="excellent">O(1)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Bucket Sort</td>
+      <td class="excellent">Ω(n + k)</td>
+      <td class="excellent">Θ(n + k)</td>
+      <td class="horrible">O(n^2)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Radix Sort</td>
+      <td class="excellent">Ω(nk)</td>
+      <td class="excellent">Θ(nk)</td>
+      <td class="excellent">O(nk)</td>
+      <td class="fair">O(n + k)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Counting Sort</td>
+      <td class="excellent">Ω(n + k)</td>
+      <td class="excellent">Θ(n + k)</td>
+      <td class="excellent">O(n + k)</td>
+      <td class="fair">O(k)</td>
+    </tr>
+    <tr>
+      <td class="sticky-left">Cubesort</td>
+      <td class="fair">Ω(n)</td>
+      <td class="bad">Θ(n log n)</td>
+      <td class="bad">O(n log n)</td>
+      <td class="fair">O(n)</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 재귀(Recursion) 기본
 
