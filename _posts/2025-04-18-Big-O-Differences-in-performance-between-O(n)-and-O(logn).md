@@ -4,10 +4,9 @@ description: 데이터의 크기가 1백만 개 이상이라면?
 author: Nine
 Created: 2025-04-18
 categories:
-  [CS]
+  [알고리즘]
 tags:
   [devlog,
-  CS,
   algorithms]
 image:
   path: /assets/img/posts/20250418/thumbnail-2025-04-18-Big-O-Differences-in-performance-between-O(n)-and-O(logn).png
