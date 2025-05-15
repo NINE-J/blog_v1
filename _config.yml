@@ -119,7 +119,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: NINE-J/nine-j.github.io # <gh-username>/<repo>
+    repo: NINE-J/blog_v1 # <gh-username>/<repo>
     repo_id: R_kgDONpQs_A
     category: General
     category_id: DIC_kwDONpQs_M4Cozpy
